@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.banner {
+	height: 100vh;
+	background: url("../assets/banner.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.titulo {
+	color: #ffffff;
+	border: 1px solid;
+	border-color: #ffffff;
+	padding: 20px;
+}
+.paragrafo {
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-indent: 2em;
+}
+
+.praia {
+	height: 100vh;
+	background: url("../assets/praias.jpg")  center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.montanha {
+	height: 100vh;
+	background: url("../assets/montanhas.jpg")  center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.floresta {
+	height: 100vh;
+	background: url("../assets/florestas.jpg")  center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+
+
+
+
+.icone {
+	bottom: 30px;
+	right: 30px;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	color: #a9b4c7;
+}
